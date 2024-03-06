@@ -1,0 +1,57 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: Mabry pro;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+@font-face {
+  font-family: Mabry pro;
+  src: url("./assets/fonts/mabry-regular-pro.woff2") format("woff2"),
+    url("./assets/fonts/mabry-regular-pro.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Mabry pro;
+  src: url("./assets/fonts/mabry-italic-pro.woff2") format("woff2"),
+    url("./assets/fonts/mabry-italic-pro.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Mabry pro;
+  src: url("./assets/fonts/mabry-medium-italic-pro.woff2") format("woff2"),
+    url("./assets/fonts/mabry-medium-italic-pro.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Mabry pro;
+  src: url("./assets/fonts/mabry-medium-italic-pro.woff2") format("woff2"),
+    url("./assets/fonts/mabry-medium-italic-pro.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: Mabry pro;
+  src: url("./assets/fonts/mabry-bold-pro.woff2") format("woff2"),
+    url("./assets/fonts/mabry-bold-pro.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
