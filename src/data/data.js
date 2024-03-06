@@ -96,37 +96,37 @@ export const cardData = [
     {
         title: 'Blog-Rush',
         description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
-        img: '../../public/blogrush1.png',
+        img: 'blogrush1.png',
         link: 'https://github.com/prabhjot2001/'
     },
     {
         title: 'Blog-Rush',
         description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
-        img: '../../public/blogrush2.png',
+        img: 'blogrush2.png',
         link: 'https://github.com/prabhjot2001/'
     },
     {
         title: 'Epic',
         description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
-        img: '../../public/ecommerce.png',
+        img: 'ecommerce.png',
         link: 'https://github.com/prabhjot2001/'
     },
     {
         title: 'Epic',
         description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
-        img: '../../public/ecommerce1.png',
+        img: 'ecommerce1.png',
         link: 'https://github.com/prabhjot2001/'
     },
     {
         title: 'Task-minder',
         description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
-        img: '../../public/projectManagement1.png',
+        img: 'projectManagement1.png',
         link: 'https://github.com/prabhjot2001/'
     },
     {
         title: 'Task-minder',
         description: 'lorem sdfajl; sdkjlf sdjkfkjf skjf9tijweiotkn jsdfcnsdofahsiof',
-        img: '../../public/projectManagement2.png',
+        img: 'projectManagement2.png',
         link: 'https://github.com/prabhjot2001/'
     },
 

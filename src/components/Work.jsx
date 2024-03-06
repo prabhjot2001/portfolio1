@@ -6,6 +6,7 @@ import { useRef } from "react";
 import Card from './Card';
 
 
+
 const Work = () => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
