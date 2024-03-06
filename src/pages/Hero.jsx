@@ -46,7 +46,7 @@ const Hero = () => {
 
       <div className='flex-[1] relative'>
         <div className='sticky top-[180px]'>
-          <img src="/hero.jpg" width={450} alt="" />
+          <img src="./hero.jpg" width={450} alt="" />
         </div>
       </div>
     </div>
