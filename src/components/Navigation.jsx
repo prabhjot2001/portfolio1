@@ -59,11 +59,11 @@ const Navigation = () => {
 
       <div className='flex items-center sm:mr-5'>
         <div className='hidden sm:flex items-center gap-10 px-10  h-full'>
-          {
-            links.map((item, i) => <p className="relative flex bg-green-40 items-center group h-full hover:text-gray-100 transition-all duration-300 ease-in-out cursor-pointer">
-              <Link to={item.path} className='font-bold text-xl p-3'>{item.link}</Link>
-              <span className="absolute left-0 bottom-0 w-full h-[0.1px] bg-black -z-10 group-hover:h-full group-hover:transition-all ease-in-out group-hover:duration-300 duration-300"></span>
-            </p>
+        {
+            links.map((item, i) => <a href={item.path} className="relative flex bg-green-40 items-center group h-full hover:text-gray-100 transition-all duration-300 ease-in-out cursor-pointer">
+            <p className='font-bold text-xl p-3'>{item.link}</p>
+            <span className="absolute left-0 bottom-0 w-full h-[0.1px] bg-black -z-10 group-hover:h-full group-hover:transition-all ease-in-out group-hover:duration-300 duration-300"></span>
+          </a>
             )
           }
         </div>

@@ -21,11 +21,11 @@ const MobileNavLink = ({ to, title, isOpen, setIsOpen, toggleMenu }) => {
     };
     return (
         <motion.div variants={linkAnimation} onClick={toggleMenu} >
-            <Link to={to} className='font-bold'>
+            <a href={to} className='font-bold'>
                 {
                     title
                 }
-            </Link>
+            </a>
         </motion.div >
 
     )
