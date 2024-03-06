@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion';
 import Skills from '../components/Skills';
 import Experience from '../components/Experience';
+import img from '../../public/hero.jpg'
 
 
 const Hero = () => {
@@ -46,7 +47,7 @@ const Hero = () => {
 
       <div className='flex-[1] relative'>
         <div className='sticky top-[180px]'>
-          <img src="./hero.jpg" width={450} alt="" />
+          <img src={img} width={450} alt="" />
         </div>
       </div>
     </div>
