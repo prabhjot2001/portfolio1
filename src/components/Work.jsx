@@ -18,7 +18,7 @@ const Work = () => {
     <>
       <h2 id='portfolio' className='scroll-mt-[132px] underline text-3xl sm:text-4xl uppercase mt-20'>MY WORK</h2>
 
-      <section ref={targetRef} className="relative h-[300vh] bg-neutral-90 mt-20 ">
+      <section ref={targetRef} className="relative h-[300vh] mt-20 ">
         <div className="sticky top-[132px] flex h-[500px] items-center overflow-hidden">
           <motion.div style={{ x }} className="flex gap-20">
             {cardData.map((card, i) => {

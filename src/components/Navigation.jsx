@@ -54,7 +54,7 @@ const Navigation = () => {
     <header className='flex bg-white sticky top-0 left-0 w-full justify-between border-b-2 border-black z-10'>
 
       <div className='flex h-[70px] sm:h-[132px]'>
-        <div className='flex items-center text-3xl sm:text-4xl px-4 sm:px-24 sm:border-r-2 border-black'>PRABHJOT</div>
+        <Link to={'/'} className='flex items-center text-3xl sm:text-4xl px-4 sm:px-24 sm:border-r-2 border-black'>PRABHJOT</Link>
       </div>
 
       <div className='flex items-center sm:mr-5'>
