@@ -10,7 +10,7 @@ const Card = ({ title, desc, img, link }) => {
                 <div class="relative bg-black h-full w-full overflow-hidden bg-cover bg-no-repeat">
                     <img
                         src={img}
-                        class="object-cover h-full w-full transition duration-300 ease-in-out hover:scale-110"
+                        class="object-cover filter grayscale h-full w-full transition duration-300 ease-in-out hover:scale-110"
                         alt="Image" />
                 </div>
 
